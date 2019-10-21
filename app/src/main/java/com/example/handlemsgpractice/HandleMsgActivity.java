@@ -72,7 +72,7 @@ public class HandleMsgActivity extends AppCompatActivity {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }
-             handler.sendEmptyMessage(0x123);
+            handler.sendEmptyMessage(0x123);
         }
 
 
@@ -94,12 +94,7 @@ public class HandleMsgActivity extends AppCompatActivity {
     });
 
 
-
-
-
-
-    
-//第二种 异步处理 （共四种，只列举2中了）
+    //第二种 异步处理 （共四种，只列举2中了）
     class Yibu extends AsyncTask<String, String, String> {
 
         @Override
